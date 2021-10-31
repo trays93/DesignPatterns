@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Létrehozási minták", "Létrehozási minták", "{24F85267-D8ED-462A-A46D-4F60FB938DC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egyke", "Egyke\Egyke.csproj", "{553F54F9-9BB6-43D7-9702-DF226E668A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{6F088290-544C-424A-AFBB-F1EE05118DFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{569F70BC-DA0E-478D-A353-A373A6DB468C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorInjection", "ConstructorInjection\ConstructorInjection.csproj", "{08B6E019-1D8F-4236-982F-C1D7ED1D4CB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodInjection", "MethodInjection\MethodInjection.csproj", "{18F9C859-B9C7-4EE7-85ED-C1C9A00E12C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyInjection", "PropertyInjection\PropertyInjection.csproj", "{A925C5A0-C062-4A59-90A8-6637DC1A5B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{553F54F9-9BB6-43D7-9702-DF226E668A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553F54F9-9BB6-43D7-9702-DF226E668A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553F54F9-9BB6-43D7-9702-DF226E668A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553F54F9-9BB6-43D7-9702-DF226E668A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F088290-544C-424A-AFBB-F1EE05118DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F088290-544C-424A-AFBB-F1EE05118DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F088290-544C-424A-AFBB-F1EE05118DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F088290-544C-424A-AFBB-F1EE05118DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B6E019-1D8F-4236-982F-C1D7ED1D4CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B6E019-1D8F-4236-982F-C1D7ED1D4CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B6E019-1D8F-4236-982F-C1D7ED1D4CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B6E019-1D8F-4236-982F-C1D7ED1D4CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F9C859-B9C7-4EE7-85ED-C1C9A00E12C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F9C859-B9C7-4EE7-85ED-C1C9A00E12C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F9C859-B9C7-4EE7-85ED-C1C9A00E12C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F9C859-B9C7-4EE7-85ED-C1C9A00E12C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A925C5A0-C062-4A59-90A8-6637DC1A5B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A925C5A0-C062-4A59-90A8-6637DC1A5B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A925C5A0-C062-4A59-90A8-6637DC1A5B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A925C5A0-C062-4A59-90A8-6637DC1A5B51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{553F54F9-9BB6-43D7-9702-DF226E668A5A} = {24F85267-D8ED-462A-A46D-4F60FB938DC7}
+		{6F088290-544C-424A-AFBB-F1EE05118DFF} = {24F85267-D8ED-462A-A46D-4F60FB938DC7}
+		{569F70BC-DA0E-478D-A353-A373A6DB468C} = {24F85267-D8ED-462A-A46D-4F60FB938DC7}
+		{08B6E019-1D8F-4236-982F-C1D7ED1D4CB5} = {569F70BC-DA0E-478D-A353-A373A6DB468C}
+		{18F9C859-B9C7-4EE7-85ED-C1C9A00E12C4} = {569F70BC-DA0E-478D-A353-A373A6DB468C}
+		{A925C5A0-C062-4A59-90A8-6637DC1A5B51} = {569F70BC-DA0E-478D-A353-A373A6DB468C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C14F359-7D32-4347-9C59-7AC1EB4F65DF}
+	EndGlobalSection
+EndGlobal
