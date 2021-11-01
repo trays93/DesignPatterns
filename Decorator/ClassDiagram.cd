@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="További funkcionalitás vagy viselkedés hozzáadása futásidőben egy objektumhoz, anélkül hogy az osztály struktúráján változtatnánk.&#xD;&#xA;&#xD;&#xA;Akkor hasznos ha egymástól függetlenül több funkcionalitást és ezek egyes kombinációit is hozzá kell adni bizonyos objektumokhoz.">
+    <Position X="8.823" Y="1.073" Height="2.146" Width="3.367" />
+  </Comment>
+  <Class Name="Decorator.Program">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decorator.BakeryComponent">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>BakeryComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decorator.CakeBase">
+    <Position X="0.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CakeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decorator.PastryBase">
+    <Position X="2.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>PastryBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decorator.Decorator">
+    <Position X="5" Y="3.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decorator.CherryDecorator">
+    <Position X="0.75" Y="6.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CherryDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decorator.CreamDecorator">
+    <Position X="4.75" Y="6.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreamDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decorator.ArtificalScentDecorator">
+    <Position X="8.75" Y="6.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArtificalScentDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decorator.NameCardDecorator">
+    <Position X="8.75" Y="3.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAABAA=</HashCode>
+      <FileName>NameCardDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
