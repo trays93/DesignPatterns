@@ -25,21 +25,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{6531490A-DE09-4E44-87D9-20C517CB8835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kliens", "Kliens\Kliens.csproj", "{4E4D80B6-072B-4CFD-8C80-9FD686FD330E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kliens", "Kliens\Kliens.csproj", "{4E4D80B6-072B-4CFD-8C80-9FD686FD330E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szerver", "Szerver\Szerver.csproj", "{A32B50F8-893F-4E5B-9BD5-769D2A0EB0F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Szerver", "Szerver\Szerver.csproj", "{A32B50F8-893F-4E5B-9BD5-769D2A0EB0F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{F362ECD5-D556-4125-A1C4-CDB9B7D29466}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{F362ECD5-D556-4125-A1C4-CDB9B7D29466}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{C08F8681-E50D-4CD7-80EC-26DB916D0CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterÖröklődéssel", "AdapterÖröklődéssel\AdapterÖröklődéssel.csproj", "{5A8DAE88-62FB-4CD5-A201-DB2E41BFDEE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterÖröklődéssel", "AdapterÖröklődéssel\AdapterÖröklődéssel.csproj", "{5A8DAE88-62FB-4CD5-A201-DB2E41BFDEE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterBeágyazással", "AdapterBeágyazással\AdapterBeágyazással.csproj", "{DA408A19-52B0-43E3-B75D-92BD057A2308}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterBeágyazással", "AdapterBeágyazással\AdapterBeágyazással.csproj", "{DA408A19-52B0-43E3-B75D-92BD057A2308}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterKiegészítéssel", "AdapterKiegészítéssel\AdapterKiegészítéssel.csproj", "{D5186FEA-DBBB-4E1A-816A-FA331725AA51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterKiegészítéssel", "AdapterKiegészítéssel\AdapterKiegészítéssel.csproj", "{D5186FEA-DBBB-4E1A-816A-FA331725AA51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterBővítőMetódussal", "AdapterBővítőMetódussal\AdapterBővítőMetódussal.csproj", "{423BEFBA-12C4-4233-8EB9-52D64101F917}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterBővítőMetódussal", "AdapterBővítőMetódussal\AdapterBővítőMetódussal.csproj", "{423BEFBA-12C4-4233-8EB9-52D64101F917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{E1ADB927-FBF6-4F3C-9953-3D4A558D40F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{423BEFBA-12C4-4233-8EB9-52D64101F917}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{423BEFBA-12C4-4233-8EB9-52D64101F917}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{423BEFBA-12C4-4233-8EB9-52D64101F917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1ADB927-FBF6-4F3C-9953-3D4A558D40F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1ADB927-FBF6-4F3C-9953-3D4A558D40F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1ADB927-FBF6-4F3C-9953-3D4A558D40F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1ADB927-FBF6-4F3C-9953-3D4A558D40F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +126,7 @@ Global
 		{DA408A19-52B0-43E3-B75D-92BD057A2308} = {C08F8681-E50D-4CD7-80EC-26DB916D0CAC}
 		{D5186FEA-DBBB-4E1A-816A-FA331725AA51} = {C08F8681-E50D-4CD7-80EC-26DB916D0CAC}
 		{423BEFBA-12C4-4233-8EB9-52D64101F917} = {C08F8681-E50D-4CD7-80EC-26DB916D0CAC}
+		{E1ADB927-FBF6-4F3C-9953-3D4A558D40F4} = {3DA30481-D3B8-40BA-B5A8-30B3973C39AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C14F359-7D32-4347-9C59-7AC1EB4F65DF}
