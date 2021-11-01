@@ -5,23 +5,29 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Létrehozási minták", "Létrehozási minták", "{24F85267-D8ED-462A-A46D-4F60FB938DC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egyke", "Egyke\Egyke.csproj", "{553F54F9-9BB6-43D7-9702-DF226E668A5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Egyke", "Egyke\Egyke.csproj", "{553F54F9-9BB6-43D7-9702-DF226E668A5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{6F088290-544C-424A-AFBB-F1EE05118DFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{6F088290-544C-424A-AFBB-F1EE05118DFF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{569F70BC-DA0E-478D-A353-A373A6DB468C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorInjection", "ConstructorInjection\ConstructorInjection.csproj", "{08B6E019-1D8F-4236-982F-C1D7ED1D4CB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorInjection", "ConstructorInjection\ConstructorInjection.csproj", "{08B6E019-1D8F-4236-982F-C1D7ED1D4CB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodInjection", "MethodInjection\MethodInjection.csproj", "{18F9C859-B9C7-4EE7-85ED-C1C9A00E12C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodInjection", "MethodInjection\MethodInjection.csproj", "{18F9C859-B9C7-4EE7-85ED-C1C9A00E12C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyInjection", "PropertyInjection\PropertyInjection.csproj", "{A925C5A0-C062-4A59-90A8-6637DC1A5B51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyInjection", "PropertyInjection\PropertyInjection.csproj", "{A925C5A0-C062-4A59-90A8-6637DC1A5B51}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Szerkezeti minták", "Szerkezeti minták", "{3DA30481-D3B8-40BA-B5A8-30B3973C39AA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Viselkedési minták", "Viselkedési minták", "{7FACBECB-9BD6-4845-AE63-32F802D737BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{0BC88C82-DE36-407E-8166-8FA9C5CFBDF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{0BC88C82-DE36-407E-8166-8FA9C5CFBDF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{6531490A-DE09-4E44-87D9-20C517CB8835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kliens", "Kliens\Kliens.csproj", "{4E4D80B6-072B-4CFD-8C80-9FD686FD330E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szerver", "Szerver\Szerver.csproj", "{A32B50F8-893F-4E5B-9BD5-769D2A0EB0F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +59,14 @@ Global
 		{0BC88C82-DE36-407E-8166-8FA9C5CFBDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BC88C82-DE36-407E-8166-8FA9C5CFBDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BC88C82-DE36-407E-8166-8FA9C5CFBDF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4D80B6-072B-4CFD-8C80-9FD686FD330E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4D80B6-072B-4CFD-8C80-9FD686FD330E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4D80B6-072B-4CFD-8C80-9FD686FD330E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4D80B6-072B-4CFD-8C80-9FD686FD330E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32B50F8-893F-4E5B-9BD5-769D2A0EB0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32B50F8-893F-4E5B-9BD5-769D2A0EB0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32B50F8-893F-4E5B-9BD5-769D2A0EB0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32B50F8-893F-4E5B-9BD5-769D2A0EB0F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +79,9 @@ Global
 		{18F9C859-B9C7-4EE7-85ED-C1C9A00E12C4} = {569F70BC-DA0E-478D-A353-A373A6DB468C}
 		{A925C5A0-C062-4A59-90A8-6637DC1A5B51} = {569F70BC-DA0E-478D-A353-A373A6DB468C}
 		{0BC88C82-DE36-407E-8166-8FA9C5CFBDF5} = {3DA30481-D3B8-40BA-B5A8-30B3973C39AA}
+		{6531490A-DE09-4E44-87D9-20C517CB8835} = {3DA30481-D3B8-40BA-B5A8-30B3973C39AA}
+		{4E4D80B6-072B-4CFD-8C80-9FD686FD330E} = {6531490A-DE09-4E44-87D9-20C517CB8835}
+		{A32B50F8-893F-4E5B-9BD5-769D2A0EB0F2} = {6531490A-DE09-4E44-87D9-20C517CB8835}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C14F359-7D32-4347-9C59-7AC1EB4F65DF}
