@@ -12,6 +12,6 @@
         }
 
         public override string GetName()
-            => $"{_baseComponent.GetName()}, {_name} (Please Collect your discount card for {_discountRate}%)";
+            => $"{base.GetName()} (Please Collect your discount card for {_discountRate}%)";
     }
 }

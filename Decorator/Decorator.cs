@@ -2,7 +2,7 @@
 {
     public class Decorator : BakeryComponent
     {
-        protected BakeryComponent _baseComponent = null;
+        private BakeryComponent _baseComponent = null;
         protected string _name = "Undefined Decorator";
         protected double _price = 0.0;
 
