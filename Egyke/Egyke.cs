@@ -14,7 +14,18 @@ namespace Egyke
 
         public static Egyke Példány()
         {
-            return _egyediPéldány ?? new Egyke();
+            _egyediPéldány = _egyediPéldány ?? new Egyke();
+            return _egyediPéldány;
+        }
+
+        public static Egyke PéldányTulajdonság
+        {
+            get
+            {
+                if (_egyediPéldány == null)
+                    _egyediPéldány = new Egyke();
+                return _egyediPéldány;
+            }
         }
 
         public void Művelet()

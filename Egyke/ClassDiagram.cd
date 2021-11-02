@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Egyke.Program">
-    <Position X="2.25" Y="1.75" Width="2" />
+    <Position X="3.5" Y="1.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Egyke.Egyke">
-    <Position X="0.5" Y="1.75" Width="1.5" />
+    <Position X="0.5" Y="1.75" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <HashCode>AAAAAAACAAAAAAAAAAACAAAAAAAAAAAAAAAAgAAAAQA=</HashCode>
       <FileName>Egyke.cs</FileName>
     </TypeIdentifier>
   </Class>
