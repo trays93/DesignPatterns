@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Az alapgondolat az, hogy létrehozunk egy absztrakt ősosztályt, és belőle származtatott osztályokban valósítjuk meg a konkrét megoldásokat">
+    <Position X="0.5" Y="4.521" Height="1.365" Width="1.888" />
+  </Comment>
+  <Comment CommentText="A sablon módszer használata olyankor javasolt, amikor hasonló feladatok elvégzésére van szükség, az algoritmus minden esetben nagyjából azonos, de néhány kisebb lépés eltérő.">
+    <Position X="2.74" Y="4.552" Height="1.302" Width="1.877" />
+  </Comment>
+  <Class Name="Template.Program">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.DataExporter">
+    <Position X="1.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAABAAAAAAAAAAAAACAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>DataExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.PDFExporter">
+    <Position X="0.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PDFExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Template.ExcelExporter">
+    <Position X="3.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcelExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
